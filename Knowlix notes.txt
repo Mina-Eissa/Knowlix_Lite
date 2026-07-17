@@ -1,0 +1,21 @@
+Sara token (admin) : 20|ceF7Jyr8Aw3PNR2X8mhKkLNTYGA2qFtVNY5of0hFe21fbbbc
+Mina token (admin) : 24|azEzOQEzj1wmnRpxrfs3ArC1DxEp17a4puvdCVbb58e0e70e
+
+curl -i -X POST http://127.0.0.1:8000/api/v1/users \
+  -H "Content-Type: application/json" -H "Accept: application/json" \
+  -H "Authorization: Bearer 20|ceF7Jyr8Aw3PNR2X8mhKkLNTYGA2qFtVNY5of0hFe21fbbbc" \
+  -d '{"name":"Jake","email":"jake@acme.com","role":"agent"}'
+  
+ 
+TestAdmin token ( admin ) : 1|spsF21PVFLVAB6rExU6gyiNiSkEnaLnjtAXOnDLlbe84cdae
+  "email": "test@gmail.com",
+  "password": "test1234"
+
+
+http://localhost:5173/accept-invite?email=minaeissa26%40gmail.com&amp;token=6efbefa4bb1d40a9e204418c1361a2417782b994f8b1ba71f0342d5e0b53ff79
+
+
+Mina Eissa token : 2|WdrPRe1LqACKztX9Y4UNjjuiNXz5XRCEHOZaqTId531f1968
+    "name":"Mina Eissa",
+	"email":"minaeissa26@gmail.com"
+  "password":"mina5678"
